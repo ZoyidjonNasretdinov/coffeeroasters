@@ -4,8 +4,8 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('../fonts/fraunces-v31-latin-regular.woff2') format('woff2'), 
-    url('../fonts/fraunces-v31-latin-regular.woff') format('woff')
+    src: url('../fonts/fraunces400.woff2') format('woff2'), 
+    url('../fonts/fraunces400.woff') format('woff')
 }
 
 @font-face {
@@ -13,8 +13,8 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap; 
-    src: url('../fonts/fraunces-v31-latin-700.woff2') format('woff2'), 
-    url('../fonts/fraunces-v31-latin-700.woff') format('woff')
+    src: url('../fonts/fraunces700.woff2') format('woff2'), 
+    url('../fonts/fraunces700.woff') format('woff')
 }
 
 @font-face {
@@ -22,11 +22,9 @@
     font-style: normal;
     font-weight: 900;
     font-display: swap; 
-    src: url('../fonts/fraunces-v31-latin-900.woff2') format('woff2'),
-    url('../fonts/fraunces-v31-latin-900.woff') format('woff')
+    src: url('../fonts/fraunces900.woff2') format('woff2'),
+    url('../fonts/fraunces900.woff') format('woff')
 }
-
-
 
 * {
     box-sizing: border-box;
@@ -257,3 +255,73 @@ img {
 
 /* work section */
 
+.work {
+    padding-top: 620px;
+    padding-bottom: 120px;
+}
+
+.work__title {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #83888f;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+}
+
+.work__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 56px;
+}
+
+.work__item-number {
+    padding-top: 0;
+    padding-bottom: 24px;
+    color: #fdd6ba;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px; /* 100% */
+}
+
+.work__item-title {
+    padding-top: 0;
+    padding-bottom: 24px;
+    color: #333d4b;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 32px; /* 114.286% */
+}
+
+.work__item-desc {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #333d4b;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+}
+
+.work__link {
+    display: flex;
+    width: 217px;
+    height: 56px;
+    margin: 79px auto 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #fefcf7;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px; /* 138.889% */
+    border-radius: 6px;
+    background-color: #0e8784;
+    text-decoration: none;
+}
